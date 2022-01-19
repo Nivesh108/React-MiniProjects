@@ -6,10 +6,10 @@ function Home() {
   return (
     <div className="home-container">
       <h1>Welcome</h1>
-      <Button href="/counter">Counter</Button>
-      <Button href="/clock">Clock</Button>
-      <Button href="/colorgenerator">Random Color generator</Button>
-      <Button href="/todolist">Todo List</Button>
+      <Button href={`${process.env.PUBLIC_URL}/counter`}>Counter</Button>
+      <Button href={`${process.env.PUBLIC_URL}/clock`}>Clock</Button>
+      <Button href={`${process.env.PUBLIC_URL}/colorgenerator`}>Random Color generator</Button>
+      <Button href={`${process.env.PUBLIC_URL}/todolist`}>Todo List</Button>
     </div>
   )
 }
