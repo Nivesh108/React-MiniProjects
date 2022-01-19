@@ -3,6 +3,7 @@ import "./Home.css"
 import { Button } from "@mui/material"
 
 function Home() {
+  console.log(process.env.PUBLIC_URL)
   return (
     <div className="home-container">
       <h1>Welcome</h1>
