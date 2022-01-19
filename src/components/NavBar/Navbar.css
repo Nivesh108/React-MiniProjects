@@ -1,0 +1,16 @@
+.navbar-container{
+    width: 100vw;
+    position: fixed;
+}
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #193498;
+}
+
+button{
+    padding: 5px 40px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
