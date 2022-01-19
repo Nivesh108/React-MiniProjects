@@ -6,7 +6,7 @@ import Home from "./components/Home/Home"
 import TodoList from "./components/TodoList/TodoList"
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<Counter />} />
