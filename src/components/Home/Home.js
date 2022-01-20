@@ -1,16 +1,16 @@
 import React from "react"
 import "./Home.css"
-import { Button } from "@mui/material"
+import { Link } from "react-router-dom"
 
 function Home() {
-  console.log(process.env.PUBLIC_URL)
+  
   return (
     <div className="home-container">
       <h1>Welcome</h1>
-      <Button href={`${process.env.PUBLIC_URL}/counter`}>Counter</Button>
-      <Button href={`${process.env.PUBLIC_URL}/clock`}>Clock</Button>
-      <Button href={`${process.env.PUBLIC_URL}/colorgenerator`}>Random Color generator</Button>
-      <Button href={`${process.env.PUBLIC_URL}/todolist`}>Todo List</Button>
+      <Link to={`/counter`}>Counter</Link>
+      <Link to={`/clock`}>Clock</Link>
+      <Link to={`/colorgenerator`}>Random Color generator</Link>
+      <Link to={`/todolist`}>Todo List</Link>
     </div>
   )
 }
