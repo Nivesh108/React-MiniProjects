@@ -7,10 +7,10 @@ function Home() {
   return (
     <div className="home-container">
       <h1>Welcome</h1>
-      <Link to={`/counter`}>Counter</Link>
-      <Link to={`/clock`}>Clock</Link>
-      <Link to={`/colorgenerator`}>Random Color generator</Link>
-      <Link to={`/todolist`}>Todo List</Link>
+      <Link className="Link" to={`/counter`}>Counter</Link>
+      <Link className="Link" to={`/clock`}>Clock</Link>
+      <Link className="Link" to={`/colorgenerator`}>Random Color generator</Link>
+      <Link className="Link" to={`/todolist`}>Todo List</Link>
     </div>
   )
 }
